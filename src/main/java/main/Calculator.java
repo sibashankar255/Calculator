@@ -1,7 +1,8 @@
 package main;
 import java.util.*; 
 
-public class Calculator {
+public class Calculator 
+{
     public static void main(String[] args)
     {
         System.out.println("Enter first and second number:");
@@ -39,25 +40,28 @@ public class Calculator {
     {
     	int result=0;
 //        write your code here 
-    	
+    	result = x+y;
         return result;
     }
     public static int sub(int x, int y)
     {
     	int result=0;
 //        write your code here
+    	result = x-y;
         return result;
     }
     public static int mult(int x, int y)
     {
     	int result=0;
-//      write your code here        
+//      write your code here
+    	result = x*y;
     	return result;
     }
     public static int div(int x, int y)
     {
     	int result=0;
 //      write your code here
+    	result = x/y;
     	return result;
     }
 
